@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Receiver Regestered with OS"
+        android:text="Receiver Registered with OS"
         android:textColor="#ffff0000"
         android:textSize="20dp"
         android:gravity="center"/>

@@ -10,8 +10,9 @@ public class LogWriteReceiver extends BroadcastReceiver {
 	
 	@Override
 	public void onReceive(Context context, Intent intent) {	
-		  
-           Log.e("Permission",  "Receiver wrote to log");          
+
+        String str = intent.getStringExtra("message");
+        Log.e("Permission",  "Receiver wrote to log " + str);
 		   
         }
 
